@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  // Test signal
+  // Testni  signali  
   float t = micros()/1.0e6;
   //float xn = sin(2*PI*2*t) + 0.2*sin(2*PI*50*t);
 
@@ -30,4 +30,4 @@ void loop() {
     Serial.println(2*yn);
   }
   k = k+1;
-} // Wait for 1000 millisecond(s)
+} 
