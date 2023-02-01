@@ -1,0 +1,10 @@
+This is an Arduino sketch that implements a simple low-pass filter on an analog sensor reading. 
+The analog reading is taken from the A0 pin and converted to a voltage value, with a range of 0-5V. 
+The filtered signal is then calculated as a weighted average of the current and previous readings,
+using the equation: yn = 0.969yn1 + 0.0155xn + 0.0155*xn1. 
+The filtered signal is printed to the serial monitor every 3 iterations, 
+with a delay of 1ms in between each iteration. 
+The previous readings are stored in the variables xn1 and yn1.
+
+
+
